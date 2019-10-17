@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "personal-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Personal website written using gatsby",
+  "version": "0.0.0",
+  "author": "Kaustav Chakraborty <kaustavch@outlook.com>",
   "dependencies": {
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
@@ -22,6 +22,8 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
+    "phoenixtw.github.io",
+    "persona-website",
     "gatsby"
   ],
   "license": "MIT",
@@ -35,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/phoenixTW/phoenixtw.github.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/phoenixTW/phoenixtw.github.io/issues"
   }
 }
