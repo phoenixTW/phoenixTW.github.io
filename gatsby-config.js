@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Kaustav Chakraborty`,
-    description: "",
+    description: `Personal website of Kaustav Chakraborty showcasing the skills and achievements`,
     author: `@phoenixTW`,
   },
   plugins: [
