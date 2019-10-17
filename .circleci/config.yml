@@ -25,4 +25,13 @@ jobs:
 
       - run:
           name: Deploy website
-          command: npm run deploy
+          command: |
+            if echo "${CIRCLE_TAG}" | grep -Eq "develop"; then
+              REPOSITORY="https://phoenixcibot:${GITHUB_TOKEN}@github.com/phoenixTW/phoenixtw.github.io.git"
+              git config user.email phoenixcibot@users.noreply.github.com
+              git config user.name phoenixcibot
+              git remote set-url origin ${REPOSITORY}
+              npm run deploy
+            else
+              echo "No website released."
+            fi
