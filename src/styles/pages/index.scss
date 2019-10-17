@@ -11,11 +11,26 @@
     border: 10px solid $border-color;
   }
 
-  .home-page__typing-effect {
+  .home-page__details-section {
     color: $text-color;
     font-size: 30px;
     font-weight: 900;
     padding-top: 50px;
+    text-align: center;
+  }
+
+  .home-page__role-section {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+
+  .home-page__role {
+    padding-right: 5px;
+
+    &:last-child {
+      padding-right: 0;
+    }
   }
 
   .home-page__social-list {
