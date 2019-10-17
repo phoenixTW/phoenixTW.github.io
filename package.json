@@ -30,12 +30,11 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "mv public dist",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "npm run build && touch dist/.nojekyll && gh-pages -t -d dist",
+    "deploy": "npm run build && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "repository": {
