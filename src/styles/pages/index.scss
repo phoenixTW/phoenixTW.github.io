@@ -1,0 +1,37 @@
+@import "../common/colors";
+@import "../common/bootstrap";
+
+.home-page__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .home-image__wrapper {
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid $border-color;
+  }
+
+  .home-page__typing-effect {
+    color: $text-color;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 50px;
+  }
+
+  .home-page__social-list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 200px;
+
+    a {
+      color: $text-color;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $hover-color;
+      }
+    }
+  }
+}

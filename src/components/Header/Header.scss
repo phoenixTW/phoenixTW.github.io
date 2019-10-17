@@ -1,0 +1,58 @@
+@import "../../styles/common/colors";
+@import url("https://fonts.googleapis.com/css?family=Kristi&display=swap");
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+
+  .nav-bar__wrapper {
+    width: 80%;
+    position: fixed;
+    top: 0;
+    color: $text-color;
+    margin-top: 30px;
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 0 10px;
+
+      &:last-child {
+        padding-right: 20px;
+      }
+    }
+
+    a {
+      text-decoration: none !important;
+      color: $text-color !important;
+      font-size: 14px;
+
+      &:hover,
+      &:focus {
+        padding-bottom: 5px;
+        border-bottom: 1px solid $text-color;
+      }
+    }
+
+    .signature {
+      font-family: "Kristi", cursive;
+      color: $text-color;
+      justify-self: flex-start;
+      flex-grow: 1;
+
+      a {
+        font-size: 30px;
+
+        &:focus,
+        &:hover {
+          text-decoration: none;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
