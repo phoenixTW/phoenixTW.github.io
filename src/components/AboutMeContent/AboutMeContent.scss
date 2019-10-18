@@ -1,8 +1,11 @@
 @import "../../styles/common/colors";
 
-.about-me__container {
+.about-me-content__wrapper {
   font-size: 16px;
   line-height: 26px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
 
   a {
     color: $hover-color;
@@ -13,12 +16,22 @@
     }
   }
 
-  .about-me__highlights {
+  .about-me-content__container {
+    width: 60%;
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .about-me-content__highlights {
     font-size: 20px;
     line-height: 32px;
   }
 
   .thoughtworks__design {
     font-family: "Open Sans", sans-serif;
+  }
+
+  .about-me-content-content__profile-image {
+    width: 300px;
   }
 }

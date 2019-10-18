@@ -4,12 +4,15 @@
 .header__wrapper {
   display: flex;
   justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: $text-color;
+  background-color: $background-color;
+  z-index: 99;
 
   .nav-bar__wrapper {
     width: 80%;
-    position: fixed;
-    top: 0;
-    color: $text-color;
     margin-top: 30px;
 
     ul {
