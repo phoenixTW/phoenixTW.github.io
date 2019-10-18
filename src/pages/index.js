@@ -19,7 +19,7 @@ const icons = [
 const renderIcons = icons =>
     icons.map(icon => (
         <a href={icon.link} target="__blank" key={icon.name}>
-            <Icon name={icon.name} />
+            <Icon name={icon.name} size="medium" />
         </a>
     ))
 
