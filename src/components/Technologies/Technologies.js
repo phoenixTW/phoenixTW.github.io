@@ -5,12 +5,18 @@ import "./Technologies.scss"
 
 const icons = [
     `node-js`,
+    `java`,
+    `postgresql`,
     `html5`,
-    `js`,
+    `javascript`,
     `sass`,
     `angular`,
     `react`,
-    `aws`
+    `redux`,
+    `aws`,
+    `heroku`,
+    `circleci`,
+    `ubuntu`
 ]
 
 const renderIcon =
