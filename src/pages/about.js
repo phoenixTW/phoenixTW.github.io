@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Layout, SEO, AboutMeContent, WorkExperience } from "@components";
+import { Layout, SEO, AboutMeContent, WorkExperience, Technologies } from "@components";
 import "@styles/pages/about.scss";
 
 const AboutPage = () => (
@@ -9,6 +9,7 @@ const AboutPage = () => (
         <div className="about-me__wrapper">
             <AboutMeContent />
             <WorkExperience />
+            <Technologies />
         </div>
     </Layout>
 )

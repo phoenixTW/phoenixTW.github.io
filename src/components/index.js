@@ -5,6 +5,7 @@ import Icon from "./Icon/Icon"
 import Title from "./Title/Title"
 import WorkExperience from "./WorkExperience/WorkExperience"
 import AboutMeContent from "./AboutMeContent/AboutMeContent"
+import Technologies from "./Technologies/Technologies"
 
 export {
     Layout,
@@ -14,4 +15,5 @@ export {
     AboutMeContent,
     Title,
     WorkExperience,
+    Technologies,
 };
