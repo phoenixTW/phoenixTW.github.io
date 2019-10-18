@@ -30,6 +30,14 @@ const STEPInternship = () => (
                         </List.Description>
                     </List.Content>
                 </List.Item>
+                <List.Item>
+                    <Icon name="right triangle" />
+                    <List.Content>
+                        <List.Description>
+                            Collaborating teams based on multiple location and solve complex problems in collaborative way.
+                        </List.Description>
+                    </List.Content>
+                </List.Item>
             </List>
         </div>
     </div>
