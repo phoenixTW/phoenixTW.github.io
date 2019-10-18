@@ -29,7 +29,7 @@ const role = messages.map((role, index) =>
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+      <SEO title="Home" />
       <div className="home-page__wrapper">
           <Image className="home-image__wrapper" />
           <section className="home-page__details-section">

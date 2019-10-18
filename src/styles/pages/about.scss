@@ -1,0 +1,9 @@
+@import "../common/colors";
+
+.about-me__wrapper {
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+  width: 40%;
+  text-align: center;
+  margin-top: 100px;
+}

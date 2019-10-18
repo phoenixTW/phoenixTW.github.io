@@ -1,0 +1,24 @@
+@import "../../styles/common/colors";
+
+.about-me__container {
+  font-size: 16px;
+  line-height: 26px;
+
+  a {
+    color: $hover-color;
+    text-decoration: none;
+
+    &:hover, &:focus {
+      color: $white;
+    }
+  }
+
+  .about-me__highlights {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .thoughtworks__design {
+    font-family: "Open Sans", sans-serif;
+  }
+}
