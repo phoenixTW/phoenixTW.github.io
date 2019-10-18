@@ -1,0 +1,30 @@
+@import "../../styles/common/colors";
+
+.org-details__wrapper {
+  text-align: left;
+
+  .org-details__company {
+    padding: 0 10px;
+    color: $link-color;
+  }
+
+  .org-details__timeline {
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  a {
+    padding-left: 5px;
+    color: $link-color;
+
+    &:hover {
+      padding-bottom: 5px;
+      border-bottom: 1px solid;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
