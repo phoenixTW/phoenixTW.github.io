@@ -1,0 +1,16 @@
+@import "../common/colors";
+
+.error-page__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 50vh;
+
+  .error-page__icon {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: $hover-color;
+  }
+}

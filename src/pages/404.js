@@ -1,12 +1,16 @@
 import React from "react"
 
-import { Layout, SEO } from "@components/index"
+import { Layout, SEO, Icon } from "@components/index"
+
+import "@styles/pages/404.scss";
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className="error-page__wrapper">
+        <Icon name="warning" size="xlarge" className="error-page__icon" />
+        <h1>Page not found</h1>
+    </div>
   </Layout>
 )
 
