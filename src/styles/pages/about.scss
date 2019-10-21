@@ -1,8 +1,15 @@
 @import "../common/colors";
+@import "../common/responsive";
 
 .about-me__wrapper {
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
   width: 60%;
   text-align: center;
+}
+
+@include screen-below($lg) {
+  .about-me__wrapper {
+    width: 80%;
+  }
 }

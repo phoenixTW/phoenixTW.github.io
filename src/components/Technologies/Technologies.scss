@@ -1,4 +1,5 @@
 @import "../../styles/common/colors";
+@import "../../styles/common/responsive";
 
 .technologies__wrapper {
   margin-bottom: 30px;
@@ -9,10 +10,23 @@
     justify-content: space-evenly;
   }
 
-  i {
+  .technologies__icon {
     &:hover {
       color: $link-color;
       cursor: pointer;
+    }
+  }
+}
+
+@include screen-below($sm) {
+  .technologies__wrapper {
+    .technologies__container {
+      flex-wrap: wrap;
+    }
+
+    .technologies__icon {
+      flex: 1 0 21%;
+      padding-bottom: 20px;
     }
   }
 }

@@ -20,7 +20,7 @@ const icons = [
 ]
 
 const renderIcon =
-    icon => <Icon key={icon} name={icon} size="large" />
+    icon => <Icon key={icon} name={icon} size="large" className="technologies__icon" />
 
 const Technologies = () => (
     <section className="technologies__wrapper">
