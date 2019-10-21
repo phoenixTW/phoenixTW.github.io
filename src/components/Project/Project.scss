@@ -1,0 +1,37 @@
+@import "../../styles/common/colors";
+
+.project__wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 auto;
+
+  .project__image {
+    margin-right: 20px;
+  }
+
+  .project__details {
+    padding-top: 40px;
+    text-align: right;
+  }
+
+  .project__title {
+    a {
+      color: $text-color;
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+
+  .project__description {
+    padding: 30px 20px;
+    background-color: $section-background-color;
+  }
+
+  .project__technologies {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

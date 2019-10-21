@@ -1,0 +1,14 @@
+.project-section__wrapper {
+  width: 600px;
+  margin-bottom: 60px;
+
+  .title__wrapper {
+    text-align: center;
+  }
+
+  .project-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
