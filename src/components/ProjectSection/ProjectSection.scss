@@ -1,3 +1,5 @@
+@import "../../styles/common/responsive";
+
 .project-section__wrapper {
   width: 600px;
   margin-bottom: 60px;
@@ -10,5 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  }
+}
+
+@include screen-below($sm) {
+  .project-section__wrapper {
+    width: 80%;
+    margin: 0 auto 30px;
   }
 }
