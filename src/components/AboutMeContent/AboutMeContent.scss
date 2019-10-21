@@ -1,4 +1,5 @@
 @import "../../styles/common/colors";
+@import "../../styles/common/responsive";
 
 .about-me-content__wrapper {
   font-size: 16px;
@@ -32,5 +33,22 @@
 
   .about-me-content-content__profile-image {
     width: 300px;
+  }
+}
+
+@include screen-below($lg) {
+  .about-me-content__wrapper {
+    justify-content: center;
+    flex-direction: column;
+
+    .about-me-content-content__profile-image {
+      width: 100%;
+    }
+
+    .about-me-content__container {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 20px;
+    }
   }
 }

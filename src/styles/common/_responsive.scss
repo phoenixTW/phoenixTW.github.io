@@ -1,0 +1,13 @@
+$xs: 375px;
+$sm: 640px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xl: 1440px;
+
+
+@mixin screen-below($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}
