@@ -2,6 +2,19 @@ import regaugeImage from "@images/regauge-screenshot.png"
 
 export const projects = [
     {
+        title: `Medly`,
+        itemsPerRow: 1,
+        projects: [
+            {
+                name: `Medly Components`,
+                link: `medly.github.io/medly-components/`,
+                description: `Medly components provides numerous themable react components, each with multiple varitaions of sizes, colors, position etc.`,
+                image: `https://assets.website-files.com/5d97a9686a6b1f576763099f/5d97a9686a6b1fd7136309cd_logo-color.svg`,
+                technologies: [ `ReactJS`, `Typescript`, `Storybook` ]
+            }
+        ]
+    },
+    {
         title: `ThoughtWorks`,
         itemsPerRow: 1,
         projects: [
@@ -16,7 +29,7 @@ export const projects = [
                 name: `DHIS2`,
                 link: `https://dhis2.org`,
                 description: `District Health Information Software 2 (DHIS2) is an open source, web-based health management information system (HMIS) platform.`,
-                image: `https://s3-eu-west-1.amazonaws.com/content.dhis2.org/frontpage/key_indicators_example.jpeg`,
+                image: `https://lists.launchpad.net/dhis2-users/pngegDzr25yJ3.png`,
                 technologies: [`Java`, `React`, `Postgresql`]
             },
         ]

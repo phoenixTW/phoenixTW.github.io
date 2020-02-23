@@ -5,8 +5,10 @@ import { Title } from "../index";
 import ThoughtWorksExperience from "./ThoughtWorksExperience";
 import STEPInternship from "./STEPInternship";
 import "./WorkExperience.scss"
+import MedlyExperience from "./MedlyExperience";
 
 const experienceMap = {
+    "Medly": MedlyExperience,
     "ThoughtWorks": ThoughtWorksExperience,
     "ThoughtWorks Internship": STEPInternship
 }
@@ -20,7 +22,7 @@ const defaultMenuConfig = {
 
 export default class WorkExperience extends React.PureComponent {
     state = {
-        activeItem: 'ThoughtWorks',
+        activeItem: 'Medly',
         ...defaultMenuConfig,
     }
 
@@ -55,6 +57,11 @@ export default class WorkExperience extends React.PureComponent {
                 <Grid className="work-experience__container">
                     <Grid.Column width={menuColumn}>
                         <Menu pointing secondary inverted={inverted} vertical={vertical}>
+                            <Menu.Item
+                                name='Medly'
+                                active={activeItem === 'Medly'}
+                                onClick={this.handleItemClick}
+                            />
                             <Menu.Item
                                 name='ThoughtWorks'
                                 active={activeItem === 'ThoughtWorks'}

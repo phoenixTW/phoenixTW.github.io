@@ -3,21 +3,20 @@ import { Icon, List } from 'semantic-ui-react'
 
 import OrgDetails from "../OrgDetails/OrgDetails";
 
-const ThoughtWorksExperience = () => (
+const MedlyExperience = () => (
     <div className="work-experience__container">
         <OrgDetails
-            name="ThoughtWorks"
-            link="//thoughtworks.com"
-            role="Application Developer"
-            start="July, 2016"
-            end="December, 2019" />
+            name="Medly"
+            link="//medlypharmacy.com"
+            role="Senior Application Developer"
+            start="January, 2020" />
         <div className="work-experience__content">
             <List>
                 <List.Item>
                     <Icon name="right triangle" />
                     <List.Content>
                         <List.Description>
-                            Write modern, performant, maintainable code for a diverse array of client and internal projects.
+                            Build data centric and Secure product in Health Care domain.
                         </List.Description>
                     </List.Content>
                 </List.Item>
@@ -25,7 +24,7 @@ const ThoughtWorksExperience = () => (
                     <Icon name="right triangle" />
                     <List.Content>
                         <List.Description>
-                            Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
+                            Understanding and investigating the requirements and implement accordingly.
                         </List.Description>
                     </List.Content>
                 </List.Item>
@@ -33,7 +32,7 @@ const ThoughtWorksExperience = () => (
                     <Icon name="right triangle" />
                     <List.Content>
                         <List.Description>
-                            Leading and Mentoring client and internal project teams.
+                            Actively involve in tasks of office operations.
                         </List.Description>
                     </List.Content>
                 </List.Item>
@@ -42,4 +41,4 @@ const ThoughtWorksExperience = () => (
     </div>
 )
 
-export default ThoughtWorksExperience
+export default MedlyExperience
