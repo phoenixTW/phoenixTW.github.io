@@ -63,12 +63,12 @@ export default class WorkExperience extends React.PureComponent {
                                 onClick={this.handleItemClick}
                             />
                             <Menu.Item
-                                name='ThoughtWorks'
+                                name='Thoughtworks'
                                 active={activeItem === 'ThoughtWorks'}
                                 onClick={this.handleItemClick}
                             />
                             <Menu.Item
-                                name='ThoughtWorks Internship'
+                                name='Thoughtworks Internship'
                                 active={activeItem === 'ThoughtWorks Internship'}
                                 onClick={this.handleItemClick}
                                 className="work-experience__menu-item"
